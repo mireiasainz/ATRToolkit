@@ -1,4 +1,4 @@
-This folder contains the code used to perform the calibration procedure and determine the permittivity presented in the article "Permittivity determination of inorganic nanoparticles by ATR spectroscopy: comparison with reflectance techniques and limitations" by Sainz-Menchón et al.
+This repository contains the code used to perform the calibration procedure and determine the permittivity presented in the article "Permittivity determination of inorganic nanoparticles by ATR spectroscopy: comparison with reflectance techniques and limitations" by Sainz-Menchón et al.
 
 The following files are included:
 
