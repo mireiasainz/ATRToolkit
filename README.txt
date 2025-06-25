@@ -1,19 +1,19 @@
-This folder contains the code used to perform the calibration procedure and determination of the permittivity presented in "Permittivity determination of inorganic nanoparticles by ATR spectroscopy: comparison with reflectance techniques and limitations." by Sainz-Menchón et al.
+This folder contains the code used to perform the calibration procedure and determine the permittivity presented in the article "Permittivity determination of inorganic nanoparticles by ATR spectroscopy: comparison with reflectance techniques and limitations" by Sainz-Menchón et al.
 
-The following files can be found:
+The following files are included:
 
-"polarization_fraction.ipynb" : Jupyther notebook for determining the polarization fraction induced by the spectrometer and ATR equipment.
+polarization_fraction.ipynb: Jupyter notebook for determining the polarization fraction induced by the spectrometer and ATR setup.
 
-"permittivity_determination.ipynb" : Jupyther notebook for determining the permittivity of inorganic nanoparticles. The code is exemplified using the delta-Al2O3 sample data presented in the paper.
+permittivity_determination.ipynb: Jupyter notebook for determining the permittivity of inorganic nanoparticles. The code is demonstrated using the delta-Al₂O₃ sample data presented in the paper.
 
-"module.py": python file containing all the functions used in both Jupyther Notebook codes.
+module.py: Python module containing all the functions used in both Jupyter notebooks.
 
-"ATR_absorbance_H2O.dat" : experimental ATR absorbance data for distilled H2O
+ATR_absorbance_H2O.dat: Experimental ATR absorbance data for distilled water.
 
-"ATR_absorbance_delta_Al2O3_NPs.dat" : experimental ATR absorbance data for delta-al2o3
+ATR_absorbance_delta_Al2O3_NPs.dat: Experimental ATR absorbance data for delta-Al₂O₃ nanoparticles.
 
-"ATR_absorbance_gamma_Al2O3_NPs.dat" : experimental ATR absorbance data for gamma-al2o3
+ATR_absorbance_gamma_Al2O3_NPs.dat: Experimental ATR absorbance data for gamma-Al₂O₃ nanoparticles.
 
-"Reference_permittivity_gammadelta_Al2O3_spectrochimica.csv" : reference permittivity values for delta- and gamma-al2o3 from Gonzalez de Arrieta et al. (https://doi.org/10.1016/j.saa.2023.122795)
+Reference_permittivity_gammadelta_Al2O3_spectrochimica.csv: Reference permittivity values for delta- and gamma-Al₂O₃ from González de Arrieta et al. (DOI: 10.1016/j.saa.2023.122795).
 
-"Requirements.txt" : list of all exact packages and versions of the packages required to reproduce the environment setup and run the project. You can easyly install the packages using pip.
+requirements.txt: List of all the exact packages and their versions needed to reproduce the environment and run the project. You can easily install the packages using pip.
